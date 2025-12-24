@@ -91,16 +91,6 @@ MyApp is an expense tracking application built with Spring Boot and PostgreSQL. 
 - **Hibernate DDL**: `update` (auto-manages schema)
 - **Logging Level**: TRACE for Hibernate JDBC binding
 
-### Environment Variables (`.env`)
-Create a `.env` file in the project root:
-```
-SPRING_APPLICATION_NAME=myapp
-SERVER_PORT=8081
-SPRING_DATASOURCE_URL=jdbc:postgresql://localhost:5432/testdb
-SPRING_DATASOURCE_USERNAME=postgres
-SPRING_DATASOURCE_PASSWORD=1234
-```
-
 ## 🔧 Development Notes
 
 ### Known Configuration
